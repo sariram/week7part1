@@ -1,44 +1,34 @@
 <!doctype html>
 <html class="" lang="en">
-
-  <head>
-    <meta charset="utf-8">
-
-    <title>Week 7, Part 1</title>
-
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
-
-  <body>
-
-    <h1>Week 7, Part 1</h1>
-
-    <div class="board">
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-		</div>
-
-		<p>
-      <img src="images/kitten.png" id="my_image" class="animal">
-    </p>
-
-		<button id="my_button" class="btn btn-primary">Button</button>
-
-	</body>
-
+<head>
+  <meta charset="utf-8">
+  <title>Virtual Art Gallery</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" type="image/x-icon" href="http://sariram.me/sr_favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans:wght@300&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <h1>The Tate Museum's Virtual Art Gallery</h1>
+  <h2> We have made it possible to see your favorite art pieces in the comfort and safety of your own home.</h2>
+  <img src="./images/tate.jpg" height=900px width=180px id="hi" class="media" alt="chagall">
+  <div id="slide" class="text-center">
+    <br>
+    <button id="button1" class="btn btn-primary">Weeping Woman by Pablo Picasso</button>
+    <button id="button2" class="btn btn-primary">Seated Man by Paul Cézanne</button>
+    <button id="button3" class="btn btn-primary">Two Triangles by Benode Behari Mukherjee</button>
+    <button id="button4" class="btn btn-primary">I and the Village by Marc Chagall</button>
+    <button id="button5" class="btn btn-primary">An Orchid by Georgia O'Keeffe</button>
+  </div>
+  <div class="wrapper"><button class="btn btn-secondary" onClick="refreshPage()">Start Over</button></div>
+</body>
+<footer class="mastfoot mt-auto">
+    <div class="inner"><p>Thanks to Fern for inspiring my idea for an art gallery walk through & reference!</p></div>
+</footer>
 </html>
